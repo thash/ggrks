@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+#$LOAD_PATH.unshift("#{__DIR__}../lib")
+#puts $LOAD_PATH
+require_relative '../lib/ggrks'
+GGRKS::Runner.execute(*ARGV)
